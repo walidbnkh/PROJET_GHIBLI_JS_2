@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.FILMS_SECTION{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    row-gap: 80px;
+
+}
+
+.btn_title{
+    position: relative;
+    
+}
+
+
+
+
+    /* Style for the card container */
+    .card {
+        width: 80%;
+        height: 105%;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        overflow: hidden;
+        margin: 20px;
+      }
+  
+      /* Style for the image */
+      .card img {
+        width: 100%;
+        
+        object-fit: cover;
+      }
+
+      .titleE{
+        position: absolute;
+        right: 0%;
+      }
+  
+      /* Style for the card content */
+      .card-content {
+        padding: 15px;
+      }
+  
+      /* Style for the "Show Details" button */
+      .btn {
+        display: block;
+        width: 20%;
+        padding: 15px;
+        margin-top: 20px;
+        text-align: center;
+        color: gray;
+        text-decoration: none;
+        border: solid 1px gray;
+        border-radius: 4px;
+        cursor: pointer;
+        position: absolute;
+        left: 0%;
+        background-color: white;
+      }
+
+      #header{
+        position: relative;
+        width: 100%;
+        height: 80px;
+        background-color: rgb(52, 48, 48);
+
+      }
+
+      #FSPN{
+        position: absolute;
+        left: 3%;
+        top: 30%;
+        font-size: 2rem;
+        font-weight: 700;
+        color: white;
+      }
+
+.fa{
+    position: absolute;
+    right: 3%;
+    top: 25%;
+    color: white;
+}
+
+#head_img{
+    width: 100%;
+    height: 40%;
+
+}
+#head_img img{
+    height: 40%;
+    width: 100%;
+
+}
+
